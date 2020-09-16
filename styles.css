@@ -1,27 +1,52 @@
 .header1 {
- background-color:brown;
- padding: 20px;
- height: 80px;
- width: 100%;
+  background-color: brown;
+  padding: 20px;
+  height: 50px;
+  width: 100%;
 }
-
 
 img {
   width: 30%;
   height: 30%;
   margin-right: 10px;
 }
-.navbar{
+.navbar {
   width: 100%;
   height: 40px;
   float: right;
- 
-
+  position: fixed;
 }
 
 nav ul li {
- display: inline-block;
- font-size: 40px;
- margin-right: 10px;
+  display: inline-block;
+  font-size: 40px;
+  margin-right: 10px;
+  color: white;
+}
+.navlink {
+  float: right;
+  margin-left: 20px;
+}
+.section1 {
+}
+#p1 {
+  text-align: center;
+  height: 1000px;
+  width: 100%;
 
+  background-color: grey;
+}
+#lastdiv {
+  height: 100px;
+  width: 100%;
+  color: gray;
+}
+footer {
+  height: 100px;
+  width: 100%;
+  background-color: gray;
+}
+span {
+  color: white;
+  float: right;
 }
